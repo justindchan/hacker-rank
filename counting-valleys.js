@@ -57,3 +57,28 @@
 
 // The hiker enters and leaves one valley.
 
+function countingValleys(steps, path) {
+  // Write your code here
+  let count = 0;
+  let valleys = 0;
+  let inValley = false;
+  let pathsArr = path.split('');
+  for (let i = 0; i < steps; i++) {
+      if (pathsArr[i] === 'U') {
+          count++;
+      } else if (pathsArr[i] === 'D') {
+          count--;
+      }
+      if (inValley && count === 0) {
+          valleys++;
+      }
+      if (count < 0) {
+          inValley = true;
+      } else if (count => 0) {
+          inValley = false;
+      }
+  }
+  return valleys;
+};
+
+countingValleys(8, 'UDDDUDUU') // 1

@@ -2,7 +2,7 @@
 
 # repository for hacker rank questions and answers.  
 
-# Problems: 7
+# Problems: 8
  - counting-valleys.js
  - hacker-rank-challenge-day-7-ARRAYS.js
  - hacker-rank-challenge-day-2-OPERATORS.js
@@ -10,3 +10,4 @@
  - hacker-rank-challenge-day-4-CLASS-VS.INSTANCE.js
  - hacker-rank-challenge-day-5-LOOPS.js
  - hacker-rank-challenge-day-6-LETS-REVIEW.js
+ - hacker-rank-challenge-day-8-DICTIONARIES-AND-MAPS.js

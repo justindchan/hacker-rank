@@ -41,3 +41,6 @@ process.stdin.on("data", function (input) {
 process.stdin.on("end", function () {
    processData(_input);
 });
+
+
+// Note: good lesson on why to use a nest forEach/forLoop***
